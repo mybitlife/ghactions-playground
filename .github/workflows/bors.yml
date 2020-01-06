@@ -5,9 +5,4 @@ jobs:
   job_A:
     runs-on: ubuntu-latest
     steps:
-      - run: sleep 9999
-
-  job_B:
-    runs-on: ubuntu-latest
-    steps:
       - run: true
